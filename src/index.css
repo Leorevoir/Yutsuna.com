@@ -36,7 +36,7 @@ body {
 }
 
 .bg-gray-800 {
-  background-color: #1a1a1a; /* Dark gray for header */
+  background-color: #181825;
 }
 
 .border-b {
@@ -44,7 +44,7 @@ body {
 }
 
 .border-gray-700 {
-  border-color: #333333;
+  border-color: #313244;
 }
 
 .px-4 {
@@ -98,7 +98,7 @@ body {
 }
 
 .text-gray-300 {
-  color: #cccccc;
+  color: #bac2de;
 }
 
 .ml-4 {
@@ -106,7 +106,7 @@ body {
 }
 
 .text-gray-500 {
-  color: #888888;
+  color: #6c7086;
 }
 
 .text-sm {
@@ -123,6 +123,7 @@ body {
 
 .overflow-y-auto {
   overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .scroll-smooth {
@@ -131,7 +132,6 @@ body {
 
 .cursor-text {
   cursor: text;
-  color: #1e1e2e;
 }
 
 .mb-2 {
@@ -139,7 +139,7 @@ body {
 }
 
 .text-blue-400 {
-  color: #87b0f9;
+  color: #89b4fa;
 }
 
 .mr-2 {
@@ -147,7 +147,7 @@ body {
 }
 
 .text-white {
-  color: #ffffff;
+  color: #cdd6f4;
 }
 
 .mt-1 {
@@ -156,6 +156,8 @@ body {
 
 .leading-6 {
   line-height: 1.5rem;
+  white-space: pre-wrap;
+  word-break: break-word;
 }
 
 .flex-1 {
@@ -171,7 +173,7 @@ body {
 }
 
 .caret-green-400 {
-  caret-color: #a6e3a1;
+  caret-color: #f5e0dc;
 }
 
 .animate-pulse {
@@ -187,7 +189,7 @@ body {
 pre,
 code {
   white-space: pre-wrap;
-  word-break: break-all;
+  word-break: break-word;
 }
 
 input {
@@ -196,7 +198,7 @@ input {
 }
 
 span.text-blue-400 {
-  color: #97b0f9;
+  color: #87b0f9;
 }
 
 span.text-green-400 {
